@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 # Task A: Dataset Loading and Inspection
 # -------------------------------
 
-df = pd.read_csv("student_data.csv")
+df = pd.read_csv("data.csv")
 
 print("\nFIRST FIVE RECORDS")
 print(df.head())
