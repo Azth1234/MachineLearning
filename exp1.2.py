@@ -1,0 +1,13 @@
+import numpy as np
+A = np.array([10, 20, 30, 40, 50])
+B = np.array([5, 10, 15, 20, 25])
+print("Addition:")
+print(A + B)
+print("\nSubtraction:")
+print(A - B)
+print("\nElement-wise Multiplication:")
+print(A * B)
+print("\nElement-wise Division:")
+print(A / B)
+print("\nSum of Elements in A:")
+print(np.sum(A))
